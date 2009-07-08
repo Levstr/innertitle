@@ -1,0 +1,12 @@
+This is a plugin that allows to show custom titles across empty html input fields.
+
+For an example, see test.html file.
+
+Simple usage:
+
+<input type="text" title="some-cool-title"/>
+<script>
+ $(function(){
+ $.fn.innerTitle.enableGlobally();
+ });
+</script>
