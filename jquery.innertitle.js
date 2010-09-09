@@ -42,7 +42,7 @@
         position: 'absolute',
         top: $(this).position().top + $(this).margin().top + "px",
         left: $(this).position().left + $(this).margin().left + "px",
-        zIndex: $(this).css('zindex') + 100
+        zIndex: $(this).css('zIndex') + 100
       });
       $(div).attr('class', $(this).attr('class'));
       $(div).addClass(options.overlayClass);
