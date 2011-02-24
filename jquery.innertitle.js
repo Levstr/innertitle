@@ -15,7 +15,7 @@
   };
 
 
-  $.fn.innerTitle = function(options){
+  $.fn.innerTitle = function(options){ 
     var defaults = {
       inputClass: 'it-has-overlay',
       overlayClass: 'it-overlay'
